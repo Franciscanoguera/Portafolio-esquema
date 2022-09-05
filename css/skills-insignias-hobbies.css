@@ -1,0 +1,92 @@
+.skills-insignias-hobbies {
+  width: auto;
+  height: auto;
+}
+
+.skills-insignias-hobbies__titulo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+.skills-insignias-hobbies__container {
+  margin: 0;
+  display: grid;
+
+  grid-template-columns: 15% 15%;
+  row-gap: 2rem;
+  column-gap: 4%;
+
+  height: auto;
+  width: auto;
+}
+
+/* ----------------- ---------------------- */
+
+.box {
+  background-color: var(--bg-blanco);
+  padding-left: 16px;
+  padding-bottom: 10px;
+  line-height: 0;
+
+  height: 34vw;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.box__img {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box__img--insignia_js {
+  background-image: url(../img/insignia\ del\ ahorcado.png);
+}
+
+.box__img--insignia_encriptar {
+  background-image: url(../img/insigniaencriptar.png);
+}
+
+.box__img--html {
+  background-image: url(../img/html-5.svg);
+}
+
+.box__img--css {
+  background-image: url(../img/css.svg);
+}
+
+.box__img--javaScript {
+  background-image: url(../img/javaScript.svg);
+}
+
+.box__img--visual-studio-code {
+  background-image: url(../img/visual-studio-code.svg);
+}
+
+.box__img--play {
+  background-image: url(../img/gaming.jpg);
+}
+
+.box__img--running {
+  background-image: url(../img/running.png);
+}
+
+.box__img--cantar {
+  background-image: url(../img/karao.png);
+}
+
+.box__img--music {
+  background-image: url(../img/musica.png);
+}
+
+.box__img--movies {
+  background-image: url(../img/movies.png);
+}
